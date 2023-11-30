@@ -6,6 +6,7 @@ import dummyData from "../../data/dummy-data";
 const App = () => {
   const [posts, setPosts] = useState(dummyData);
   const [searchTerm, setSearchTerm] = useState("");
+  console.log("testing from the virtual DOM");
 
   const likePost = (postId) => {
     setPosts(
